@@ -12,6 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         String rssURL = "";
+        String dataProperties = "";
         Map<String, String> processedShows = new HashMap<String, String>();
 
         try (InputStream input = new FileInputStream(args[0])) {
@@ -21,13 +22,14 @@ public class Main {
             // load a properties file
             prop.load(input);
             rssURL = prop.getProperty("rss.url");
+            dataProperties = prop.getProperty("data.properties");
 
             // get the property value and print it out
             /*System.out.println(prop.getProperty("db.url"));
             System.out.println(prop.getProperty("db.user"));
             System.out.println(prop.getProperty("db.password"));*/
 
-            loadProcessedShows(processedShows);
+            loadProcessedShows(processedShows, dataProperties);
 
         } catch (IOException ex) {
             System.out.println("Failed reading parameters");
@@ -63,7 +65,7 @@ public class Main {
         }
 
         try {
-            saveProcessedShows(processedShows);
+            saveProcessedShows(processedShows, dataProperties);
         }
         catch (Exception e) {
             System.out.println("Failed saving processed shows");
@@ -71,19 +73,19 @@ public class Main {
         }
     }
 
-    private static void saveProcessedShows(Map<String, String> shows) throws IOException  {
+    private static void saveProcessedShows(Map<String, String> shows, String dataFile) throws IOException  {
         Properties properties = new Properties();
 
         for (Map.Entry<String,String> entry : shows.entrySet()) {
             properties.put(entry.getKey(), entry.getValue());
         }
 
-        properties.store(new FileOutputStream("data.properties"), null);
+        properties.store(new FileOutputStream(dataFile), null);
     }
 
-    private static void loadProcessedShows(Map<String, String> shows) throws IOException {
+    private static void loadProcessedShows(Map<String, String> shows, String dataFile) throws IOException {
         Properties properties = new Properties();
-        properties.load(new FileInputStream("data.properties"));
+        properties.load(new FileInputStream(dataFile));
 
         for (String key : properties.stringPropertyNames()) {
             shows.put(key, properties.get(key).toString());
