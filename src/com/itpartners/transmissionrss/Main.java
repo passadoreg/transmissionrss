@@ -48,11 +48,13 @@ public class Main {
         for (FeedMessage message : feed.getMessages()) {
             //System.out.println(message);
             if (!processedShows.containsKey(message.getGuid())) {
-                String cmd = "transmission-remote -n '" + transUser + ":" + transPwd + "' -a '" + message.getLink() + "'";
-                System.out.println(cmd);
+                //String cmd = "transmission-remote -n '" + transUser + ":" + transPwd + "' -a '" + message.getLink() + "'";
+                String auth = transUser + ":" + transPwd;
+                String magnet = message.getLink();
+                //System.out.println(cmd);
 
                 try {
-                    Process p = Runtime.getRuntime().exec(cmd);
+                    Process p = Runtime.getRuntime().exec(new String[]{"transmission-remote", "-n", auth, "-a", magnet});
                     p.waitFor();
                     if (p.exitValue() != 0) {
                         System.out.println("Failed download show: " + message.getTitle());
