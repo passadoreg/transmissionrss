@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="transmissionrss:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2d6ab6d-8074-4f7a-85a3-413117d67574" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1113204578">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1107" />
+          <entry key="properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1107" />
+          <entry key="Properties" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#414#430#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testrssfile.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
+              <folding>
+                <element signature="e#378#383#0" expanded="true" />
+                <element signature="e#425#430#0" expanded="true" />
+                <element signature="e#486#491#0" expanded="true" />
+                <element signature="e#553#558#0" expanded="true" />
+                <element signature="e#613#618#0" expanded="true" />
+                <element signature="e#1751#1756#0" expanded="true" />
+                <element signature="e#1787#1792#0" expanded="true" />
+                <element signature="e#1848#1853#0" expanded="true" />
+                <element signature="e#1915#1920#0" expanded="true" />
+                <element signature="e#1975#1980#0" expanded="true" />
+                <element signature="e#3044#3049#0" expanded="true" />
+                <element signature="e#3087#3092#0" expanded="true" />
+                <element signature="e#3148#3153#0" expanded="true" />
+                <element signature="e#3215#3220#0" expanded="true" />
+                <element signature="e#3275#3280#0" expanded="true" />
+                <element signature="e#4358#4363#0" expanded="true" />
+                <element signature="e#4394#4399#0" expanded="true" />
+                <element signature="e#4455#4460#0" expanded="true" />
+                <element signature="e#4522#4527#0" expanded="true" />
+                <element signature="e#4582#4587#0" expanded="true" />
+                <element signature="e#5656#5661#0" expanded="true" />
+                <element signature="e#5704#5709#0" expanded="true" />
+                <element signature="e#5765#5770#0" expanded="true" />
+                <element signature="e#5832#5837#0" expanded="true" />
+                <element signature="e#5892#5897#0" expanded="true" />
+                <element signature="e#6997#7002#0" expanded="true" />
+                <element signature="e#7040#7045#0" expanded="true" />
+                <element signature="e#7101#7106#0" expanded="true" />
+                <element signature="e#7168#7173#0" expanded="true" />
+                <element signature="e#7228#7233#0" expanded="true" />
+                <element signature="e#8311#8316#0" expanded="true" />
+                <element signature="e#8347#8352#0" expanded="true" />
+                <element signature="e#8408#8413#0" expanded="true" />
+                <element signature="e#8475#8480#0" expanded="true" />
+                <element signature="e#8535#8540#0" expanded="true" />
+                <element signature="e#9610#9615#0" expanded="true" />
+                <element signature="e#9659#9664#0" expanded="true" />
+                <element signature="e#9720#9725#0" expanded="true" />
+                <element signature="e#9787#9792#0" expanded="true" />
+                <element signature="e#9847#9852#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/FeedMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1087#1088#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1169#1170#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1287#1288#0" expanded="true" />
+                <element signature="e#1345#1346#0" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
+                <element signature="e#1521#1522#0" expanded="true" />
+                <element signature="e#1567#1568#0" expanded="true" />
+                <element signature="e#1606#1607#0" expanded="true" />
+                <element signature="e#1641#1642#0" expanded="true" />
+                <element signature="e#1697#1698#0" expanded="true" />
+                <element signature="e#1745#1746#0" expanded="true" />
+                <element signature="e#1783#1784#0" expanded="true" />
+                <element signature="e#1817#1818#0" expanded="true" />
+                <element signature="e#1871#1872#0" expanded="true" />
+                <element signature="e#1917#1918#0" expanded="true" />
+                <element signature="e#1955#1956#0" expanded="true" />
+                <element signature="e#1989#1990#0" expanded="true" />
+                <element signature="e#2043#2044#0" expanded="true" />
+                <element signature="e#2089#2090#0" expanded="true" />
+                <element signature="e#2125#2126#0" expanded="true" />
+                <element signature="e#2157#2158#0" expanded="true" />
+                <element signature="e#2207#2208#0" expanded="true" />
+                <element signature="e#2249#2250#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/RSSFeedParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/Feed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#170#183#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/Feed.java" />
+        <option value="$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/FeedMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/itpartners/transmissionrss/RSSFeedParser.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="34" />
+    <option name="width" value="1920" />
+    <option name="height" value="1005" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="transmissionrss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transmissionrss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transmissionrss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transmissionrss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transmissionrss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transmissionrss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="transmissionrss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transmissionrss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transmissionrss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="transmissionrss" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transmissionrss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.itpartners.transmissionrss.Main" />
+      <module name="transmissionrss" />
+      <option name="PROGRAM_PARAMETERS" value="config.properties" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2d6ab6d-8074-4f7a-85a3-413117d67574" name="Default Changelist" comment="" />
+      <created>1572898884396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572898884396</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="34" width="1920" height="1005" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973147" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.27909738" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testrss.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testrssfile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+          <folding>
+            <element signature="e#378#383#0" expanded="true" />
+            <element signature="e#425#430#0" expanded="true" />
+            <element signature="e#486#491#0" expanded="true" />
+            <element signature="e#553#558#0" expanded="true" />
+            <element signature="e#613#618#0" expanded="true" />
+            <element signature="e#1751#1756#0" expanded="true" />
+            <element signature="e#1787#1792#0" expanded="true" />
+            <element signature="e#1848#1853#0" expanded="true" />
+            <element signature="e#1915#1920#0" expanded="true" />
+            <element signature="e#1975#1980#0" expanded="true" />
+            <element signature="e#3044#3049#0" expanded="true" />
+            <element signature="e#3087#3092#0" expanded="true" />
+            <element signature="e#3148#3153#0" expanded="true" />
+            <element signature="e#3215#3220#0" expanded="true" />
+            <element signature="e#3275#3280#0" expanded="true" />
+            <element signature="e#4358#4363#0" expanded="true" />
+            <element signature="e#4394#4399#0" expanded="true" />
+            <element signature="e#4455#4460#0" expanded="true" />
+            <element signature="e#4522#4527#0" expanded="true" />
+            <element signature="e#4582#4587#0" expanded="true" />
+            <element signature="e#5656#5661#0" expanded="true" />
+            <element signature="e#5704#5709#0" expanded="true" />
+            <element signature="e#5765#5770#0" expanded="true" />
+            <element signature="e#5832#5837#0" expanded="true" />
+            <element signature="e#5892#5897#0" expanded="true" />
+            <element signature="e#6997#7002#0" expanded="true" />
+            <element signature="e#7040#7045#0" expanded="true" />
+            <element signature="e#7101#7106#0" expanded="true" />
+            <element signature="e#7168#7173#0" expanded="true" />
+            <element signature="e#7228#7233#0" expanded="true" />
+            <element signature="e#8311#8316#0" expanded="true" />
+            <element signature="e#8347#8352#0" expanded="true" />
+            <element signature="e#8408#8413#0" expanded="true" />
+            <element signature="e#8475#8480#0" expanded="true" />
+            <element signature="e#8535#8540#0" expanded="true" />
+            <element signature="e#9610#9615#0" expanded="true" />
+            <element signature="e#9659#9664#0" expanded="true" />
+            <element signature="e#9720#9725#0" expanded="true" />
+            <element signature="e#9787#9792#0" expanded="true" />
+            <element signature="e#9847#9852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/Feed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#170#183#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/FeedMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
+            <element signature="e#2207#2208#0" expanded="true" />
+            <element signature="e#2249#2250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/RSSFeedParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#414#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>transmissionrss:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>transmissionrss</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
