@@ -13,6 +13,8 @@ public class Main {
     public static void main(String[] args) {
         String rssURL = "";
         String dataProperties = "";
+        String transUser = "";
+        String transPwd = "";
         Map<String, String> processedShows = new HashMap<String, String>();
 
         try (InputStream input = new FileInputStream(args[0])) {
@@ -23,6 +25,8 @@ public class Main {
             prop.load(input);
             rssURL = prop.getProperty("rss.url");
             dataProperties = prop.getProperty("data.properties");
+            transUser = prop.getProperty("transmission.user");
+            transPwd = prop.getProperty("transmission.password");
 
             // get the property value and print it out
             /*System.out.println(prop.getProperty("db.url"));
@@ -42,17 +46,30 @@ public class Main {
         Feed feed = parser.readFeed();
         //System.out.println(feed);
         for (FeedMessage message : feed.getMessages()) {
-            System.out.println(message);
+            //System.out.println(message);
             if (!processedShows.containsKey(message.getGuid())) {
-                String cmd = "transmission-remote -a \"" + message.getLink() + "\"";
+                String cmd = "transmission-remote -n '" + transUser + ":" + transPwd + "' -a '" + message.getLink() + "'";
                 System.out.println(cmd);
-                cmd = "ls -l";
+
                 try {
                     Process p = Runtime.getRuntime().exec(cmd);
                     p.waitFor();
-                    System.out.println ("Queued show : " + message.getTitle() + " - Exit code:" + p.exitValue());
+                    if (p.exitValue() != 0) {
+                        System.out.println("Failed download show: " + message.getTitle());
+
+                        String line;
+                        BufferedReader error = new BufferedReader(new InputStreamReader(p.getErrorStream()));
+                        while((line = error.readLine()) != null){
+                            System.out.println(line);
+                        }
+                        error.close();
+                    }
+                    else {
+                        System.out.println("Queued show : " + message.getTitle() + " - Exit code:" + p.exitValue());
+                        processedShows.put(message.getGuid(), "OK");
+                    }
+
                     p.destroy();
-                    processedShows.put(message.getGuid(), "OK");
                 }
                 catch (Exception e) {
                     System.out.println("Failed download show: " + message.getTitle());
