@@ -4,9 +4,7 @@ import com.itpartners.transmissionrss.model.Feed;
 import com.itpartners.transmissionrss.model.FeedMessage;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Properties;
+import java.util.*;
 import java.util.logging.*;
 
 public class Main {
@@ -20,6 +18,7 @@ public class Main {
         String transUser = "";
         String transPwd = "";
         String logFile = "";
+        String magnetFile = "";
         Map<String, String> processedShows = new HashMap<String, String>();
 
         try (InputStream input = new FileInputStream(args[0])) {
@@ -33,6 +32,7 @@ public class Main {
             transUser = prop.getProperty("transmission.user");
             transPwd = prop.getProperty("transmission.password");
             logFile = prop.getProperty("log.file");
+            magnetFile = prop.getProperty("magnet.file");
 
             // get the property value and print it out
             /*System.out.println(prop.getProperty("db.url"));
@@ -104,7 +104,72 @@ public class Main {
             LOGGER.info("Failed saving processed shows");
             e.printStackTrace();
         }
+
+        processMagnetFiles(magnetFile, transUser, transPwd);
+
         LOGGER.info("End processing");
+    }
+
+    private static void processMagnetFiles (String magnetFile, String transUser, String transPwd) {
+        ArrayList<String> magnets = new ArrayList<String>();
+        try {
+            File f = new File(magnetFile);
+            BufferedReader b = new BufferedReader(new FileReader(f));
+            String readLine = "";
+            LOGGER.info("Reading file: " + magnetFile);
+            while ((readLine = b.readLine()) != null) {
+                magnets.add(readLine);
+            }
+        } catch (IOException e) {
+            LOGGER.info("Failed to open magnets file");
+            LOGGER.info(e.getMessage());
+            return;
+        }
+
+        String auth = transUser + ":" + transPwd;
+        Iterator<String> it = magnets.iterator();
+        while (it.hasNext()) {
+            String magnet = it.next();
+
+            try {
+                Process p = Runtime.getRuntime().exec(new String[]{"transmission-remote", "-n", auth, "-a", magnet});
+                p.waitFor();
+                if (p.exitValue() != 0) {
+                    //System.out.println("Failed download show: " + message.getTitle());
+                    LOGGER.info("Failed download magnet: " + magnet);
+
+                    String line;
+                    BufferedReader error = new BufferedReader(new InputStreamReader(p.getErrorStream()));
+                    while((line = error.readLine()) != null){
+                        //System.out.println(line);
+                        LOGGER.info(line);
+                    }
+                    error.close();
+                }
+                else {
+                    //System.out.println("Queued show : " + message.getTitle() + " - Exit code:" + p.exitValue());
+                    LOGGER.info("Queued magnet : " + magnet + " - Exit code:" + p.exitValue());
+                }
+
+                p.destroy();
+            }
+            catch (Exception e) {
+                //System.out.println("Failed download show: " + message.getTitle());
+                LOGGER.info("Failed magnet: " + magnet);
+                LOGGER.info(e.getMessage());
+                e.printStackTrace();
+            }
+        }
+
+        try {
+            FileWriter newFile = new FileWriter(magnetFile, false);
+            newFile.flush();
+            newFile.close();
+        } catch (IOException e) {
+            LOGGER.info("Failed to empty magnets file");
+            LOGGER.info(e.getMessage());
+            return;
+        }
     }
 
     private static void saveProcessedShows(Map<String, String> shows, String dataFile) throws IOException  {

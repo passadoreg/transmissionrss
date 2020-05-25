@@ -5,177 +5,52 @@
       <artifact name="transmissionrss:jar" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b2d6ab6d-8074-4f7a-85a3-413117d67574" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/magnet.file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/transmissionrss_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/transmissionrss_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/data.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/transmissionrss_jar/transmissionrss.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/transmissionrss_jar/transmissionrss.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/transmissionrss/com/itpartners/transmissionrss/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/transmissionrss/com/itpartners/transmissionrss/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/transmissionrss/com/itpartners/transmissionrss/RSSFeedParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/transmissionrss/com/itpartners/transmissionrss/RSSFeedParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/RSSFeedParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/RSSFeedParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/Feed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/FeedMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/FeedMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testrss_files/viewsource.css" beforeDir="false" afterPath="$PROJECT_DIR$/testrss_files/viewsource.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testrssfile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testrssfile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmissionrss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/transmissionrss.iml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1113204578">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="3" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="3" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1636" />
-          <entry key="properties" value="87" />
-          <entry key="txt" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1636" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Properties" value="87" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="154" column="53" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#492#508#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testrssfile.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
-              <folding>
-                <element signature="e#378#383#0" expanded="true" />
-                <element signature="e#425#430#0" expanded="true" />
-                <element signature="e#486#491#0" expanded="true" />
-                <element signature="e#553#558#0" expanded="true" />
-                <element signature="e#613#618#0" expanded="true" />
-                <element signature="e#1751#1756#0" expanded="true" />
-                <element signature="e#1787#1792#0" expanded="true" />
-                <element signature="e#1848#1853#0" expanded="true" />
-                <element signature="e#1915#1920#0" expanded="true" />
-                <element signature="e#1975#1980#0" expanded="true" />
-                <element signature="e#3044#3049#0" expanded="true" />
-                <element signature="e#3087#3092#0" expanded="true" />
-                <element signature="e#3148#3153#0" expanded="true" />
-                <element signature="e#3215#3220#0" expanded="true" />
-                <element signature="e#3275#3280#0" expanded="true" />
-                <element signature="e#4358#4363#0" expanded="true" />
-                <element signature="e#4394#4399#0" expanded="true" />
-                <element signature="e#4455#4460#0" expanded="true" />
-                <element signature="e#4522#4527#0" expanded="true" />
-                <element signature="e#4582#4587#0" expanded="true" />
-                <element signature="e#5656#5661#0" expanded="true" />
-                <element signature="e#5704#5709#0" expanded="true" />
-                <element signature="e#5765#5770#0" expanded="true" />
-                <element signature="e#5832#5837#0" expanded="true" />
-                <element signature="e#5892#5897#0" expanded="true" />
-                <element signature="e#6997#7002#0" expanded="true" />
-                <element signature="e#7040#7045#0" expanded="true" />
-                <element signature="e#7101#7106#0" expanded="true" />
-                <element signature="e#7168#7173#0" expanded="true" />
-                <element signature="e#7228#7233#0" expanded="true" />
-                <element signature="e#8311#8316#0" expanded="true" />
-                <element signature="e#8347#8352#0" expanded="true" />
-                <element signature="e#8408#8413#0" expanded="true" />
-                <element signature="e#8475#8480#0" expanded="true" />
-                <element signature="e#8535#8540#0" expanded="true" />
-                <element signature="e#9610#9615#0" expanded="true" />
-                <element signature="e#9659#9664#0" expanded="true" />
-                <element signature="e#9720#9725#0" expanded="true" />
-                <element signature="e#9787#9792#0" expanded="true" />
-                <element signature="e#9847#9852#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/FeedMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/RSSFeedParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/Feed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -188,83 +63,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/Feed.java" />
-        <option value="$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/FeedMessage.java" />
-        <option value="$PROJECT_DIR$/src/com/itpartners/transmissionrss/RSSFeedParser.java" />
-        <option value="$PROJECT_DIR$/data.properties" />
-        <option value="$PROJECT_DIR$/config.properties" />
-        <option value="$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1cN4rjvCFWkUA4E9s8Ld1HyQzAW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="transmissionrss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transmissionrss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transmissionrss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transmissionrss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transmissionrss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transmissionrss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="transmissionrss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transmissionrss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transmissionrss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="transmissionrss" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transmissionrss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -315,167 +127,95 @@
       <option name="project" value="LOCAL" />
       <updated>1572922325752</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added logging">
+      <created>1573060051176</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573060051176</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="1114" width="1920" height="1005" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19065522" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.19904648" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32896304" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32896304" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
+    <MESSAGE value="Added logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logging" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590447957483">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590447957483" />
+    <state x="553" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590448495561">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="553" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1590448495561" />
+    <state width="1638" height="167" key="GridCell.Tab.0.bottom" timestamp="1590449127784">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="167" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590449127784" />
+    <state width="1638" height="167" key="GridCell.Tab.0.center" timestamp="1590449127783">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="167" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590449127783" />
+    <state width="1638" height="167" key="GridCell.Tab.0.left" timestamp="1590449127782">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="167" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590449127782" />
+    <state width="1638" height="167" key="GridCell.Tab.0.right" timestamp="1590449127783">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="167" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590449127783" />
+    <state width="1638" height="167" key="GridCell.Tab.1.bottom" timestamp="1590449128077">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="167" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590449128077" />
+    <state width="1638" height="167" key="GridCell.Tab.1.center" timestamp="1590449128073">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="167" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590449128073" />
+    <state width="1638" height="167" key="GridCell.Tab.1.left" timestamp="1590449128070">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="167" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590449128070" />
+    <state width="1638" height="167" key="GridCell.Tab.1.right" timestamp="1590449128074">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="167" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590449128074" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java</url>
-          <line>17</line>
-          <properties />
+          <line>15</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java</url>
-          <line>129</line>
-          <properties />
-          <option name="timeStamp" value="6" />
+          <line>107</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testrss.xml" />
-    <entry file="file://$PROJECT_DIR$/data.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testrssfile.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-          <folding>
-            <element signature="e#378#383#0" expanded="true" />
-            <element signature="e#425#430#0" expanded="true" />
-            <element signature="e#486#491#0" expanded="true" />
-            <element signature="e#553#558#0" expanded="true" />
-            <element signature="e#613#618#0" expanded="true" />
-            <element signature="e#1751#1756#0" expanded="true" />
-            <element signature="e#1787#1792#0" expanded="true" />
-            <element signature="e#1848#1853#0" expanded="true" />
-            <element signature="e#1915#1920#0" expanded="true" />
-            <element signature="e#1975#1980#0" expanded="true" />
-            <element signature="e#3044#3049#0" expanded="true" />
-            <element signature="e#3087#3092#0" expanded="true" />
-            <element signature="e#3148#3153#0" expanded="true" />
-            <element signature="e#3215#3220#0" expanded="true" />
-            <element signature="e#3275#3280#0" expanded="true" />
-            <element signature="e#4358#4363#0" expanded="true" />
-            <element signature="e#4394#4399#0" expanded="true" />
-            <element signature="e#4455#4460#0" expanded="true" />
-            <element signature="e#4522#4527#0" expanded="true" />
-            <element signature="e#4582#4587#0" expanded="true" />
-            <element signature="e#5656#5661#0" expanded="true" />
-            <element signature="e#5704#5709#0" expanded="true" />
-            <element signature="e#5765#5770#0" expanded="true" />
-            <element signature="e#5832#5837#0" expanded="true" />
-            <element signature="e#5892#5897#0" expanded="true" />
-            <element signature="e#6997#7002#0" expanded="true" />
-            <element signature="e#7040#7045#0" expanded="true" />
-            <element signature="e#7101#7106#0" expanded="true" />
-            <element signature="e#7168#7173#0" expanded="true" />
-            <element signature="e#7228#7233#0" expanded="true" />
-            <element signature="e#8311#8316#0" expanded="true" />
-            <element signature="e#8347#8352#0" expanded="true" />
-            <element signature="e#8408#8413#0" expanded="true" />
-            <element signature="e#8475#8480#0" expanded="true" />
-            <element signature="e#8535#8540#0" expanded="true" />
-            <element signature="e#9610#9615#0" expanded="true" />
-            <element signature="e#9659#9664#0" expanded="true" />
-            <element signature="e#9720#9725#0" expanded="true" />
-            <element signature="e#9787#9792#0" expanded="true" />
-            <element signature="e#9847#9852#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/FeedMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/RSSFeedParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/Feed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="154" column="53" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#492#508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
