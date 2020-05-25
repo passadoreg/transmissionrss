@@ -24,29 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2d6ab6d-8074-4f7a-85a3-413117d67574" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/magnet.file" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/transmissionrss_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/transmissionrss_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/transmissionrss_jar/transmissionrss.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/transmissionrss_jar/transmissionrss.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/transmissionrss/com/itpartners/transmissionrss/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/transmissionrss/com/itpartners/transmissionrss/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/transmissionrss/com/itpartners/transmissionrss/RSSFeedParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/transmissionrss/com/itpartners/transmissionrss/RSSFeedParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/RSSFeedParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/RSSFeedParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/Feed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/FeedMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itpartners/transmissionrss/model/FeedMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testrss_files/viewsource.css" beforeDir="false" afterPath="$PROJECT_DIR$/testrss_files/viewsource.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testrssfile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testrssfile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transmissionrss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/transmissionrss.iml" afterDir="false" />
-    </list>
+    <list default="true" id="b2d6ab6d-8074-4f7a-85a3-413117d67574" name="Default Changelist" comment="Added magnet file processing from local config file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573060051176</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added magnet file processing from local config file">
+      <created>1590449361093</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590449361093</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,7 +137,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Updates" />
     <MESSAGE value="Added logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logging" />
+    <MESSAGE value="Added magnet file processing from local config file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added magnet file processing from local config file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590447957483">
@@ -163,38 +149,38 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="553" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1590448495561" />
-    <state width="1638" height="167" key="GridCell.Tab.0.bottom" timestamp="1590449127784">
+    <state width="1638" height="167" key="GridCell.Tab.0.bottom" timestamp="1590449290905">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="167" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590449127784" />
-    <state width="1638" height="167" key="GridCell.Tab.0.center" timestamp="1590449127783">
+    <state width="1638" height="167" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590449290905" />
+    <state width="1638" height="167" key="GridCell.Tab.0.center" timestamp="1590449290904">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="167" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590449127783" />
-    <state width="1638" height="167" key="GridCell.Tab.0.left" timestamp="1590449127782">
+    <state width="1638" height="167" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590449290904" />
+    <state width="1638" height="167" key="GridCell.Tab.0.left" timestamp="1590449290903">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="167" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590449127782" />
-    <state width="1638" height="167" key="GridCell.Tab.0.right" timestamp="1590449127783">
+    <state width="1638" height="167" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590449290903" />
+    <state width="1638" height="167" key="GridCell.Tab.0.right" timestamp="1590449290904">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="167" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590449127783" />
-    <state width="1638" height="167" key="GridCell.Tab.1.bottom" timestamp="1590449128077">
+    <state width="1638" height="167" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590449290904" />
+    <state width="1638" height="167" key="GridCell.Tab.1.bottom" timestamp="1590449290906">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="167" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590449128077" />
-    <state width="1638" height="167" key="GridCell.Tab.1.center" timestamp="1590449128073">
+    <state width="1638" height="167" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590449290906" />
+    <state width="1638" height="167" key="GridCell.Tab.1.center" timestamp="1590449290905">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="167" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590449128073" />
-    <state width="1638" height="167" key="GridCell.Tab.1.left" timestamp="1590449128070">
+    <state width="1638" height="167" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590449290905" />
+    <state width="1638" height="167" key="GridCell.Tab.1.left" timestamp="1590449290905">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="167" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590449128070" />
-    <state width="1638" height="167" key="GridCell.Tab.1.right" timestamp="1590449128074">
+    <state width="1638" height="167" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590449290905" />
+    <state width="1638" height="167" key="GridCell.Tab.1.right" timestamp="1590449290906">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="167" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590449128074" />
+    <state width="1638" height="167" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590449290906" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
