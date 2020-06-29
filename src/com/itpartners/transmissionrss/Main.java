@@ -51,58 +51,62 @@ public class Main {
         LOGGER.info("Start processing");
         RSSFeedParser parser = new RSSFeedParser(rssURL);
         Feed feed = parser.readFeed();
-        //System.out.println(feed);
-        for (FeedMessage message : feed.getMessages()) {
-            //System.out.println(message);
-            if (!processedShows.containsKey(message.getGuid())) {
-                //String cmd = "transmission-remote -n '" + transUser + ":" + transPwd + "' -a '" + message.getLink() + "'";
-                String auth = transUser + ":" + transPwd;
-                String magnet = message.getLink();
-                //System.out.println(cmd);
 
-                try {
-                    Process p = Runtime.getRuntime().exec(new String[]{"transmission-remote", "-n", auth, "-a", magnet});
-                    p.waitFor();
-                    if (p.exitValue() != 0) {
+        if (feed == null)
+            LOGGER.info("Nothing read from ShowRSS");
+        else {
+            for (FeedMessage message : feed.getMessages()) {
+                //System.out.println(message);
+                if (!processedShows.containsKey(message.getGuid())) {
+                    //String cmd = "transmission-remote -n '" + transUser + ":" + transPwd + "' -a '" + message.getLink() + "'";
+                    String auth = transUser + ":" + transPwd;
+                    String magnet = message.getLink();
+                    //System.out.println(cmd);
+
+                    try {
+                        Process p = Runtime.getRuntime().exec(new String[]{"transmission-remote", "-n", auth, "-a", magnet});
+                        p.waitFor();
+                        if (p.exitValue() != 0) {
+                            //System.out.println("Failed download show: " + message.getTitle());
+                            LOGGER.info("Failed download show: " + message.getTitle());
+
+                            String line;
+                            BufferedReader error = new BufferedReader(new InputStreamReader(p.getErrorStream()));
+                            while((line = error.readLine()) != null){
+                                //System.out.println(line);
+                                LOGGER.info(line);
+                            }
+                            error.close();
+                        }
+                        else {
+                            //System.out.println("Queued show : " + message.getTitle() + " - Exit code:" + p.exitValue());
+                            LOGGER.info("Queued show : " + message.getTitle() + " - Exit code:" + p.exitValue());
+                            processedShows.put(message.getGuid(), "OK");
+                        }
+
+                        p.destroy();
+                    }
+                    catch (Exception e) {
                         //System.out.println("Failed download show: " + message.getTitle());
                         LOGGER.info("Failed download show: " + message.getTitle());
-
-                        String line;
-                        BufferedReader error = new BufferedReader(new InputStreamReader(p.getErrorStream()));
-                        while((line = error.readLine()) != null){
-                            //System.out.println(line);
-                            LOGGER.info(line);
-                        }
-                        error.close();
+                        LOGGER.info(e.getMessage());
+                        e.printStackTrace();
                     }
-                    else {
-                        //System.out.println("Queued show : " + message.getTitle() + " - Exit code:" + p.exitValue());
-                        LOGGER.info("Queued show : " + message.getTitle() + " - Exit code:" + p.exitValue());
-                        processedShows.put(message.getGuid(), "OK");
-                    }
-
-                    p.destroy();
                 }
-                catch (Exception e) {
-                    //System.out.println("Failed download show: " + message.getTitle());
-                    LOGGER.info("Failed download show: " + message.getTitle());
-                    LOGGER.info(e.getMessage());
-                    e.printStackTrace();
+                else {
+                    //System.out.println("Skipped show: " + message.getTitle());
+                    LOGGER.info("Skipped show: " + message.getTitle());
                 }
             }
-            else {
-                //System.out.println("Skipped show: " + message.getTitle());
-                LOGGER.info("Skipped show: " + message.getTitle());
-            }
-        }
 
-        try {
-            saveProcessedShows(processedShows, dataProperties);
-        }
-        catch (Exception e) {
-            //System.out.println("Failed saving processed shows");
-            LOGGER.info("Failed saving processed shows");
-            e.printStackTrace();
+            try {
+                saveProcessedShows(processedShows, dataProperties);
+            }
+            catch (Exception e) {
+                //System.out.println("Failed saving processed shows");
+                LOGGER.info("Failed saving processed shows");
+                e.printStackTrace();
+            }
         }
 
         processMagnetFiles(magnetFile, transUser, transPwd);
